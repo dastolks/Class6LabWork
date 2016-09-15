@@ -17,7 +17,7 @@ public class AdvancedJavaCourse extends ProgrammingCourse{
     }
 
     public String getCapitalizedCourseName() {
-        if(this.getCourseName() != null){
+        if(this.getCourseName() != null && !this.getCourseName().equals("")){
             return this.getCourseName().toUpperCase();
         }
         else{
