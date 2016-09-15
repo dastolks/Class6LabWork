@@ -35,7 +35,9 @@ public abstract class ProgrammingCourse {
                     "Error: courseNumber cannot be null of empty string");
             System.exit(0);
         }
-        this.courseNumber = courseNumber;
+        else{
+            this.courseNumber = courseNumber;
+        }
     }
 
     public final double getCredits() {
@@ -43,12 +45,12 @@ public abstract class ProgrammingCourse {
     }
 
     public final void setCredits(double credits) {
-        if(credits < 0 || credits > 5.0) {
-            System.out.println(
-                    "Error: credits must be in the range 0.5 to 5.0");
-            System.exit(0);
+        if(credits < 0.5 || credits > 5.0) {
+            System.out.println("Error: credits must be in the range 0.5 to 5.0");
         }
-        this.setCredits(credits);
+        else{
+            this.credits = credits;
+        }
     }
 
     public final String getPrerequisites(){
@@ -67,7 +69,9 @@ public abstract class ProgrammingCourse {
                     "Error: prerequisites cannot be null of empty string");
             System.exit(0);
         }
-        this.prerequisites = prerequisites;
+        else{
+            this.prerequisites = prerequisites;
+        }
     }
     
     

@@ -29,6 +29,9 @@ Instructions for Lab #1:
 5. In the startup class document what you think is good or bad about this
    architecture from the perspective of using abstraction and inheritance.
    (Remember, a startup class must have a main method)
+
+    //What's good about it is that a variety of methods are allowed to be used.
+
 6. When declaring variables in your startup class consider using the 
    Liskov Substitution principle. This is where you declare a variable using
    it's abstract type. For example, you could do this:
@@ -41,5 +44,6 @@ Instructions for Lab #1:
 
    Consider when this is advantageous and when it isn't. Provide a comment
    that explains your position.
-
+    //it's advantageous for things like loops and bringing up multiple common 
+    methods that every program shares.
 

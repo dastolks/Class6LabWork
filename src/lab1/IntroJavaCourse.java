@@ -1,6 +1,5 @@
 package lab1;
 
-import javax.swing.JOptionPane;
 
 /**
  * Describe responsibilities here.
@@ -10,6 +9,9 @@ import javax.swing.JOptionPane;
  */
 public class IntroJavaCourse extends ProgrammingCourse {
 
+    public IntroJavaCourse(){
+    
+    }
     public IntroJavaCourse(String courseName, String courseNumber, String prereq) {
         this.setCourseName(courseName);
         this.setCourseNumber(courseNumber);
