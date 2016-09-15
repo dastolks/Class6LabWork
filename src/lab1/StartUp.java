@@ -27,6 +27,5 @@ public class StartUp {
         javaAdvanced .setCredits(4);
         System.out.println("Advanced Java is worth " + javaAdvanced .getCredits() + " credits.");
         
-        //5. Start up is good
     }
 }

@@ -27,7 +27,9 @@ Instructions for Lab #2:
 5. In the startup class document what you think is good or bad about this
    architecture from the perspective of using abstraction and inheritance.
    (Remember, a startup class must have a main method)
+    //it's great for if we're inheriting something that can be used in more
+    advanced ways.
 6. In your solution when can Liskov Substitution principle be used and when
    is it not possible. Write down your answer by providing a comment in the
    startup class.
-
+   
